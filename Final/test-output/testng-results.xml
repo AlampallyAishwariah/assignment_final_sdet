@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T10:10:32 IST" name="Suite" finished-at="2023-06-15T10:10:39 IST" duration-ms="6856">
+    <groups>
+    </groups>
+    <test started-at="2023-06-15T10:10:32 IST" name="Test" finished-at="2023-06-15T10:10:39 IST" duration-ms="6856">
+      <class name="com.qa.testscripts.Scenario2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testscripts.Scenario2@6da21078]" started-at="2023-06-15T10:10:26 IST" name="setUp" finished-at="2023-06-15T10:10:32 IST" duration-ms="6486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pop_up_Verification()[pri:0, instance:com.qa.testscripts.Scenario2@6da21078]" started-at="2023-06-15T10:10:32 IST" name="pop_up_Verification" finished-at="2023-06-15T10:10:33 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pop_up_Verification -->
+        <test-method signature="flipkartLogo()[pri:2, instance:com.qa.testscripts.Scenario2@6da21078]" started-at="2023-06-15T10:10:33 IST" name="flipkartLogo" finished-at="2023-06-15T10:10:33 IST" depends-on-methods="com.qa.testscripts.Scenario2.pop_up_Verification" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartLogo -->
+        <test-method signature="searchItem()[pri:3, instance:com.qa.testscripts.Scenario2@6da21078]" started-at="2023-06-15T10:10:33 IST" name="searchItem" finished-at="2023-06-15T10:10:39 IST" depends-on-methods="com.qa.testscripts.Scenario2.flipkartLogo" duration-ms="5732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.Scenario2@6da21078]" started-at="2023-06-15T10:10:39 IST" name="tearDown" finished-at="2023-06-15T10:10:40 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.Scenario2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
